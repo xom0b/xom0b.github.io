@@ -81,6 +81,14 @@ body {
     /*background-color: #444444;*/
 }
 
+.footer{
+    font-style: italic;
+    color:#AAA;
+    margin-bottom: 2px;
+    margin-top: 15px;
+    letter-spacing: -1px;
+}
+
 #date {
     font-size: 15px;
     color: #777;
@@ -89,7 +97,7 @@ body {
 }
 
 #nav{
-    color: #555;
+    color: #777;
     font-size: 20px;
     font-family: HelveticaThin;
     padding-bottom: 10px;
