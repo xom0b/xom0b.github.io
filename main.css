@@ -89,6 +89,10 @@ body {
     letter-spacing: -1px;
 }
 
+#square {
+    overflow:hidden;
+}
+
 #date {
     font-size: 15px;
     color: #777;
@@ -131,6 +135,10 @@ a.low-distraction:hover {
     height: 120px;
     width: 100%;
     
+}
+
+#links{
+    font-size: 20px
 }
 
 
