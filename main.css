@@ -1,155 +1,142 @@
-
-
 body {
-    margin-top: 50px;
-    height: 100%;
-    width: 100%;
-    z-index: 0;
-    background: #efefef;
+  margin-top: 200px;
+  margin-left: 200px;
+  margin-right: 500px;
+  font-family: 'MERegular', sans-serif;
 }
 
-.container-fluid{
-    padding: 0px;
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-.container {
-    font-family: 'Roboto', sans-serif;
+a {
+  text-decoration: none;
+  color:red;
 }
 
-.container .header {
-    position: relative;
-    width: 100%;
-    height: 120px;
-    
+a:hover{
+  color:gray;
 }
 
-.container .header h1{
-    
-    padding-bottom: 10px;
-    border-bottom: 10px;
-    margin-bottom: 10px;
-    
-    height: 120px;
-    
-    z-index: 10;
-    font-family: HelveticaBlack;
-    font-size: 80px;
-    letter-spacing: -7px;
-    line-height: .7;   
-    
-
-    color: #444;
-    /*mix-blend-mode: multiply;*/
-    
+.header {
+  font-size: 18px;
+  font-family: 'MEBold', sans-serif;
+  letter-spacing: 1px;
+  line-height: 20px;
 }
 
-.container hr {
-    margin: 7px;
+.sub-header{
+  text-transform: none;
+  font-size: 14px;
+  font-family: 'MERegular', sans-serif;
 }
 
-.row {
-    
-    padding-bottom: 13px;    
-    
-    font-family: HelveticaThin;
+.nav {
+  font-family: 'MEBoldItalic', sans-serif;
+  line-height: 29px;
+  font-size: 18px;
+  margin-bottom: 77px;
+  letter-spacing: 1px;
 }
 
-.row img{
-    margin-top: 15px;
-    border-radius: 10px;
-    
+.content-container {
+  font-size: 16px;
+  margin-bottom: 77px;
 }
 
-.row p{
-    font-size: 20px;
+.content-section {
+  font-family: 'MEBold', sans-serif;
+  font-style: italic;
+  letter-spacing: 3px;
+  color: lightgrey;
+  margin-bottom: -50px;
 }
 
-.row h1{
-    font-weight: bold;
-    margin-bottom: 2px;
-    margin-top: 15px;
+.content-header{
+  font-family: 'MEBold', sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 
-.content{
-    transition: background-color 0.5s ease-out 0s;
-    -webkit-transition: background-color 500ms ease-out 0s;
-    -moz-transition: background-color 500ms ease-out 0s;
-    -o-transition: background-color 500ms ease-out 0s;
+.content-subheader{
+  font-size: 14px;
 }
 
-.content:hover{
-    /*background-color: #444444;*/
-}
-
-.footer{
-    font-style: italic;
-    color:#AAA;
-    margin-bottom: 2px;
-    margin-top: 15px;
-    letter-spacing: -1px;
-}
-
-#square {
-    overflow:hidden;
-}
-
-#date {
-    font-size: 15px;
-    color: #777;
-    padding: 0px;
-    margin: 0px;
-}
-
-#nav{
-    color: #777;
-    font-size: 20px;
-    font-family: HelveticaThin;
-    padding-bottom: 10px;
-    
-}
-
-.low-distraction {
-    font-size: 18px;
-    color: #666;
-    
-}
-
-a.low-distraction:hover {
-    color: #333;
-    text-decoration: none;
-}
-
-#gradient{
-    
-    
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,ffffff+100 */
-    /*background: #FFFFFF;*/ /* Old browsers */
-    /*background: -moz-linear-gradient(135deg,  #000000 0%, #ffffff 100%);*/ /* FF3.6-15 */
-    /*background: -webkit-linear-gradient(135deg,  #000000 0%,#ffffff 100%);*/ /* Chrome10-25,Safari5.1-6 */
-    /*background: linear-gradient(135,  #000000 0%,#ffffff 100%);*/ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff',GradientType=1 );*/ /* IE6-9 */
-    
-    
-    
-    position: absolute;
-    height: 120px;
-    width: 100%;
-    
-}
-
-#links{
-    font-size: 20px
-}
-
-
-
-
-@font-face {
-    font-family: HelveticaBlack; 
-    src: url('HelveticaNeueLTStd-Blk.otf');
+.about-profile{
+  padding-bottom: 100px;
 }
 
 @font-face {
-    font-family: HelveticaThin;
-    src: url('HelveticaNeueLTStd-Lt.otf');
+    font-family: MonoBold;
+    src: url('Fonts/ModernEraMonoTRIAL-Bold.otf');
+}
+
+@font-face {
+    font-family: MonoExtraBold;
+    src: url('Fonts/ModernEraMonoTRIAL-ExtraBold.otf');
+}
+
+@font-face {
+    font-family: MonoMedium;
+    src: url('Fonts/ModernEraMonoTRIAL-Medium.otf');
+}
+
+@font-face {
+    font-family: MonoRegular;
+    src: url('Fonts/ModernEraMonoTRIAL-Regular.otf');
+}
+
+@font-face {
+    font-family: MERegular;
+    src: url('Fonts/ModernEraTRIAL-Regular.otf');
+}
+
+@font-face {
+    font-family: MEItalic;
+    src: url('Fonts/ModernEraTRIAL-Italic.otf');
+}
+
+@font-face {
+    font-family: MEBlack;
+    src: url('Fonts/ModernEraTRIAL-Black.otf');
+}
+
+@font-face {
+    font-family: MEBoldItalic;
+    src: url('Fonts/ModernEraTRIAL-BoldItalic.otf');
+}
+
+@font-face {
+    font-family: MEBold;
+    src: url('Fonts/ModernEraTRIAL-Bold.otf');
+}
+
+@font-face {
+    font-family: VeraMono;
+    src: url('Fonts/VeraMono.ttf');
+}
+
+@font-face {
+    font-family: VeraMonoBoldItalic;
+    src: url('Fonts/VeraMono-Bold-Italic.ttf');
+}
+
+@font-face {
+    font-family: VeraMonoBold;
+    src: url('Fonts/VeraMono-Bold.ttf');
+}
+
+@media only screen and (max-width: 1200px) {
+    body {
+        margin-left: 100px;
+        margin-right: 300px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
 }
