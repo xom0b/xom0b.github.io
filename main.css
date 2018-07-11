@@ -67,6 +67,19 @@ a:hover{
   padding-bottom: 100px;
 }
 
+.index-embeds {
+  width: 560px;
+}
+
+.art-embeds{
+  width: 500px;
+}
+
+.about-profile{
+  width: 500px;
+  height: 500px;
+}
+
 @font-face {
     font-family: MonoBold;
     src: url('Fonts/ModernEraMonoTRIAL-Bold.otf');
@@ -138,5 +151,18 @@ a:hover{
     body {
         margin-left: 50px;
         margin-right: 50px;
+    }
+
+    .index-embeds{
+        width: 100%;
+    }
+
+    .about-profile{
+      width: 100%;
+      height: auto;
+    }
+
+    .art-embeds{
+      width: 100%;
     }
 }
