@@ -64,7 +64,7 @@ a:hover{
 }
 
 .about-profile{
-  padding-bottom: 100px;
+  margin-bottom: 77px;
 }
 
 .index-embeds {
@@ -73,11 +73,6 @@ a:hover{
 
 .art-embeds{
   width: 500px;
-}
-
-.about-profile{
-  width: 500px;
-  height: 500px;
 }
 
 @font-face {
@@ -158,8 +153,8 @@ a:hover{
     }
 
     .about-profile{
-      width: 100%;
-      height: auto;
+        max-width: 100%;
+        height: auto;
     }
 
     .art-embeds{
