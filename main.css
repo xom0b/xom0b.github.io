@@ -1,13 +1,15 @@
 body {
-  margin-top: 200px;
-  margin-left: 200px;
-  margin-right: 500px;
-  font-family: 'MERegular', sans-serif;
+  background-color: black;
+  background-image: url("Media/theeaglesbw.png");
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-position: 400px 100px;
 }
 
 p {
   margin-top: 0px;
   margin-bottom: 0px;
+  color: white;
 }
 
 a {
@@ -19,17 +21,27 @@ a:hover{
   color:gray;
 }
 
+.anchored-content
+{
+  margin-top: 200px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: 'MERegular', sans-serif;
+}
+
 .header {
   font-size: 18px;
   font-family: 'MEBold', sans-serif;
   letter-spacing: 1px;
   line-height: 20px;
+  color: white;
 }
 
 .sub-header{
   text-transform: none;
   font-size: 14px;
   font-family: 'MERegular', sans-serif;
+  color: white;
 }
 
 .nav {
@@ -43,6 +55,7 @@ a:hover{
 .content-container {
   font-size: 16px;
   margin-bottom: 77px;
+  color: lightgrey;
 }
 
 .content-section {
@@ -57,6 +70,7 @@ a:hover{
   font-family: 'MEBold', sans-serif;
   font-size: 18px;
   letter-spacing: 1px;
+  color: dimgrey;
 }
 
 .content-subheader{
@@ -135,15 +149,29 @@ a:hover{
     src: url('Fonts/VeraMono-Bold.ttf');
 }
 
+@media only screen and (min-width: 1201px)
+{
+    .anchored-content {
+        width: 900px;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     body {
+        background-position: 300px 100px;
+    }
+    .anchored-content {
         margin-left: 100px;
-        margin-right: 300px;
+        margin-right: 200px;
     }
 }
 
 @media only screen and (max-width: 800px) {
     body {
+        background-position: 250px 100px;
+    }
+
+    .anchored-content {
         margin-left: 50px;
         margin-right: 50px;
     }
