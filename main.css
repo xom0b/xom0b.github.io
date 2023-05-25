@@ -3,7 +3,7 @@ body {
   background-image: url("Media/theeaglesbw.png");
   background-repeat: no-repeat;
   background-size: 400px;
-  background-position: 400px 100px;
+  background-position: 350px 70px;
 }
 
 p {
@@ -38,7 +38,6 @@ a:hover{
 }
 
 .sub-header{
-  text-transform: none;
   font-size: 14px;
   font-family: 'MERegular', sans-serif;
   color: white;
@@ -149,16 +148,16 @@ a:hover{
     src: url('Fonts/VeraMono-Bold.ttf');
 }
 
-@media only screen and (min-width: 1201px)
+@media only screen and (min-width: 1101px)
 {
     .anchored-content {
-        width: 900px;
+        width: 700px;
     }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1100px) {
     body {
-        background-position: 300px 100px;
+        background-position: 275px 70px;
     }
     .anchored-content {
         margin-left: 100px;
@@ -168,7 +167,7 @@ a:hover{
 
 @media only screen and (max-width: 800px) {
     body {
-        background-position: 250px 100px;
+        background-position: 225px 70px;
     }
 
     .anchored-content {
