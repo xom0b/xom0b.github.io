@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  background-image: url("Media/theeaglesbw.png");
+  background-image: url("../theeaglesbw.png");
   background-repeat: no-repeat;
   background-size: 400px;
   background-position: 350px 70px;
@@ -90,62 +90,62 @@ a:hover{
 
 @font-face {
     font-family: MonoBold;
-    src: url('Fonts/ModernEraMonoTRIAL-Bold.otf');
+    src: url('../fonts/ModernEraMonoTRIAL-Bold.otf');
 }
 
 @font-face {
     font-family: MonoExtraBold;
-    src: url('Fonts/ModernEraMonoTRIAL-ExtraBold.otf');
+    src: url('../fonts/ModernEraMonoTRIAL-ExtraBold.otf');
 }
 
 @font-face {
     font-family: MonoMedium;
-    src: url('Fonts/ModernEraMonoTRIAL-Medium.otf');
+    src: url('../fonts/ModernEraMonoTRIAL-Medium.otf');
 }
 
 @font-face {
     font-family: MonoRegular;
-    src: url('Fonts/ModernEraMonoTRIAL-Regular.otf');
+    src: url('../fonts/ModernEraMonoTRIAL-Regular.otf');
 }
 
 @font-face {
     font-family: MERegular;
-    src: url('Fonts/ModernEraTRIAL-Regular.otf');
+    src: url('../fonts/ModernEraTRIAL-Regular.otf');
 }
 
 @font-face {
     font-family: MEItalic;
-    src: url('Fonts/ModernEraTRIAL-Italic.otf');
+    src: url('../fonts/ModernEraTRIAL-Italic.otf');
 }
 
 @font-face {
     font-family: MEBlack;
-    src: url('Fonts/ModernEraTRIAL-Black.otf');
+    src: url('../fonts/ModernEraTRIAL-Black.otf');
 }
 
 @font-face {
     font-family: MEBoldItalic;
-    src: url('Fonts/ModernEraTRIAL-BoldItalic.otf');
+    src: url('../fonts/ModernEraTRIAL-BoldItalic.otf');
 }
 
 @font-face {
     font-family: MEBold;
-    src: url('Fonts/ModernEraTRIAL-Bold.otf');
+    src: url('../fonts/ModernEraTRIAL-Bold.otf');
 }
 
 @font-face {
     font-family: VeraMono;
-    src: url('Fonts/VeraMono.ttf');
+    src: url('../fonts/VeraMono.ttf');
 }
 
 @font-face {
     font-family: VeraMonoBoldItalic;
-    src: url('Fonts/VeraMono-Bold-Italic.ttf');
+    src: url('../fonts/VeraMono-Bold-Italic.ttf');
 }
 
 @font-face {
     font-family: VeraMonoBold;
-    src: url('Fonts/VeraMono-Bold.ttf');
+    src: url('../fonts/VeraMono-Bold.ttf');
 }
 
 @media only screen and (min-width: 1101px)
