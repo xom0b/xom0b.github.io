@@ -69,11 +69,12 @@ a:hover{
   font-family: 'MEBold', sans-serif;
   font-size: 18px;
   letter-spacing: 1px;
-  color: dimgrey;
+  color: whitesmoke;
 }
 
 .content-subheader{
   font-size: 14px;
+  color: dimgrey;
 }
 
 .about-profile{
@@ -86,6 +87,17 @@ a:hover{
 
 .art-embeds{
   width: 500px;
+}
+
+.art-embeds-fill {
+    width: 500px;
+}
+
+.youtube-embeds-fill
+{
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 1.77777777778;
 }
 
 @font-face {
@@ -153,15 +165,24 @@ a:hover{
     .anchored-content {
         width: 700px;
     }
+
+    .art-embeds-fill{
+        width: 700px;
+    }
 }
 
 @media only screen and (max-width: 1100px) {
     body {
         background-position: 275px 70px;
     }
+
     .anchored-content {
         margin-left: 100px;
         margin-right: 200px;
+    }
+
+    .art-embeds-fill {
+        width: 100%;
     }
 }
 
@@ -186,5 +207,15 @@ a:hover{
 
     .art-embeds{
       width: 100%;
+    }
+
+    .art-embeds-fill{
+      width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-position: 100px 70px;
     }
 }
